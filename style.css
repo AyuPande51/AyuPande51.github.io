@@ -1,0 +1,226 @@
+p,h1{
+    color: black;
+    block-size: auto;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #B2EDFF;
+    padding: 20px;
+}
+.navbar ul{
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    gap: 55px;
+}
+.navbar .kanan , .navbar .kiri{
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    block-size: autoS;
+}
+.navbar input{
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.31);
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.navbar ul li a:hover{
+    font-weight: 600;
+}
+.baner h1, .baner p{
+    text-align: center;
+    color: white;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+}
+.baner p {
+    max-width: 400px;
+}
+.baner h1 {
+    margin-bottom: 10px;
+    font-size: 3rem;
+}
+.baner {
+    background-image: url('src/img/background1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-direction: column;
+
+}
+.buttons a{
+    background-color: #F2E359;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-direction: column;
+}
+p.p1 {
+    color: white;
+    font-weight: bold;
+}
+/* ABOUT */
+.baner {
+    background-image: url('src/img/background1.png');   
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-direction: column;
+
+} 
+.card{
+    display: flex;
+    gap: 20px;
+    background-color: rgba(255, 255, 255, 0.888);
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 20px auto;
+    max-width: 1000px;
+    border-radius: 10px;
+}
+.baner h4{
+    text-align: center;
+    color: rgb(6, 6, 6);
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+}
+/* accommodation */
+.baner-3 {
+    background-image: url('src/img/background1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 20px;
+    padding: 20px;
+} 
+.card-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    gap: 10%;
+}
+.img2{
+    width: 100px;
+}
+img.img1{
+    width: 100%;
+    border-radius: 20px;
+}
+.card-3 a{
+    background-color: #485AFD;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+    width: 100%;
+}
+/* kontak */
+.baner-4 {
+    background-image: url('src/img/background1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 0 35px;
+}
+.baner-4 p{
+    background-color: rgba(255, 255, 255, 0.638);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+.baner-4 .kiri-1, .baner-4 .kanan-1 {
+    width: 50%;
+    margin: 0 10px;
+}
+.baner-4 .kanan-1 input{
+    width: 100%;
+}
+.baner-4 input {
+    padding: 10px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    margin: 10px 0;
+}
+.baner-4 textarea {
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+}
+.baner-4 button {
+    background-color: rgb(73, 225, 89);
+    border: 0;
+    border-radius: 50px;
+    padding: 10px 25px;
+    outline: 0;
+    letter-spacing: 2px;
+    color: white!important;
+    font-size: 15px!important;
+}
+/* footer */
+.footer{
+    background-color: #13320bda;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    color: white;
+}
